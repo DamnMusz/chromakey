@@ -28,7 +28,8 @@ C/C++:
 General: Additional Include Directories: Agreagar $(OPENCV_BASE_DIR)\includes
 
 Linker:
-General: Aditional Library Directories: Agregar $(OPENCV_DIR)\lib
+General: Additional Library Directories: Agregar $(OPENCV_DIR)\lib
+Input: Additional Dependencies: C:\opencv\build\x64\vc14\lib\opencv_world320.lib (o bueno, lo que sea equivalente)
 
 (Si no reconoce las variables de entorno reemplazar con el path)
 
